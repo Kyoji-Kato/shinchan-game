@@ -10,7 +10,7 @@ export default new Router({
   mode: "history",
   routes: [
     {
-      path: '/main',           //パスの設定
+      path: '/',           //パスの設定
       component: Mainpage   //表示するコンポーネント
     },
     {

@@ -18,14 +18,14 @@ export default {
     methods:{
         game:function(){
             this.$router.push({
-                path:"/main",
+                path:"/",
                 query:{
                     isKakin:false
             }})
         },
         kakinOK:function(){
             this.$router.push({
-                path:"/main",
+                path:"/",
                 query:{
                     isKakin:true
                 }
@@ -33,7 +33,7 @@ export default {
         },
         kakinNG:function(){
             this.$router.push({
-                path:"/main",
+                path:"/",
                 query:{
                     isKakin:false
             }})
